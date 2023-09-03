@@ -86,9 +86,9 @@ dependencies {
     implementation("com.squareup.okhttp3:logging-interceptor:4.10.0")
 
     // coil
-
+    implementation("io.coil-kt:coil-compose:2.4.0")
     implementation("io.coil-kt:coil:2.4.0")
-
+    implementation ("com.google.accompanist:accompanist-coil:0.10.0")
     // Coroutines
     implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.2")
     implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.2")
@@ -109,8 +109,13 @@ dependencies {
 
 
 
+    // navigation
 
+    val nav_version = "2.5.3"
 
+    implementation("androidx.navigation:navigation-compose:$nav_version")
+
+    implementation("androidx.hilt:hilt-navigation-compose:1.1.0-alpha01")
 
 
 
